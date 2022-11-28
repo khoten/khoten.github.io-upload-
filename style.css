@@ -1,0 +1,62 @@
+h1 {
+    font-size: 80px;
+    color: rgb(79, 177, 49);
+    text-align: center;
+    
+}
+
+body {
+    background: url(../ggre.jpg);
+    height: 100vh;
+    background-size:contain;
+    background-position: left;
+    background-position: right;
+}
+
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: bisque;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+}
+
+.picture {
+    transition: 0.3s;
+}
+
+.container:hover .picture {
+    transform: scale(1.03);
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(224, 96, 22);
+}
+
+img {
+    size: 100px;
+}
+
+p {
+    text-align: left;
+    font-size: 15px;
+}
+
+
+section h2 {
+    text-align: left;
+    text-align: justify;
+    color: darkslategrey;
+}
+
+nav {
+    margin: 15px;
+}
+
+.navbar {
+    padding-top: 100px;
+}
